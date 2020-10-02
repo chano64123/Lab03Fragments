@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="first_movie">Hacksaw Ridge</string>
+    <string name="second_movie">1917</string>
+    <string name="description_second_movie">At the height of WWI, two young British soldiers, Schofield (George MacKay) and Blake (Dean-Charles Chapman) are given a seemingly impossible mission. In a race against time, they must cross enemy territory to deliver a message that will prevent a deadly attack against hundreds of soldiers, including Blake\'s own brother.</string>
+    <string name="select_movie">Select a movie</string>
+    <string name="vote_movie">Cast Vote</string>
+    <string name="go_vote">Vote</string>
+    <string name="cancel_vote">Cancel</string>
+    <string name="exception_message">You need to implement the interface</string>
+    <string name="result_title">Results</string>
+    <string name="ok">OK</string>
+    <string name="two_points">": "</string>
+    <string name="you_select">"You vote for: "</string>
+    <string name="alert_message">Please, select a movie</string>
+    <string name="alert_title">Alert</string>
+    <string name="description_first_movie">It tells the story of Desmond Doss, a young military doctor who participated in the bloody Battle of Okinawa in the Pacific during World War II, and became the first conscientious objector in American history to receive the Congressional Medal of Honor. . Doss wanted to serve his country, but since childhood he had made a promise to himself: never pick up a gun.</string>
+</resources>

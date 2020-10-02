@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fragment_background"
+    android:orientation="vertical"
+    tools:context=".VoteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/select_movie"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_first_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/first_movie" />
+
+        <RadioButton
+            android:id="@+id/radio_button_second_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/second_movie" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_vote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#01434C"
+        android:layout_marginTop="5dp"
+        android:text="@string/vote_movie" />
+</LinearLayout>

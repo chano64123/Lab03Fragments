@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fragmentos</string>
+    <string name="first_movie">Hasta el ultimo hombre</string>
+    <string name="second_movie">1917</string>
+    <string name="description_first_movie">Narra la historia de Desmond Doss, un joven médico militar que participó en la sangrienta batalla de Okinawa, en el Pacífico durante la II Guerra Mundial, y se convirtió en el primer objetor de conciencia en la historia estadounidense en recibir la Medalla de Honor del Congreso. Doss quería servir a su país, pero desde pequeño se había hecho una promesa a sí mismo: no coger jamás ningún arma.</string>
+    <string name="description_second_movie">En lo más crudo de la Primera Guerra Mundial, dos jóvenes soldados británicos, Schofield (George MacKay) y Blake (Dean-Charles Chapman) reciben una misión aparentemente imposible. En una carrera contrarreloj, deberán atravesar el territorio enemigo para entregar un mensaje que evitará un mortífero ataque contra cientos de soldados, entre ellos el propio hermano de Blake.</string>
+    <string name="select_movie">Seleccione una pelicula</string>
+    <string name="vote_movie">Emitir Voto</string>
+    <string name="go_vote">Votar</string>
+    <string name="cancel_vote">Cancelar</string>
+    <string name="exception_message">Es necesario implementar la interfaz</string>
+    <string name="result_title">Resultados</string>
+    <string name="ok">OK</string>
+    <string name="two_points">": "</string>
+    <string name="you_select">"Usted voto por: "</string>
+    <string name="alert_message">Por favor seleccione un pelicula</string>
+    <string name="alert_title">Alerta</string>
+</resources>
