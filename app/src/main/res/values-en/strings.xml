@@ -16,4 +16,8 @@
     <string name="alert_message">Please, select a movie</string>
     <string name="alert_title">Alert</string>
     <string name="description_first_movie">It tells the story of Desmond Doss, a young military doctor who participated in the bloody Battle of Okinawa in the Pacific during World War II, and became the first conscientious objector in American history to receive the Congressional Medal of Honor. . Doss wanted to serve his country, but since childhood he had made a promise to himself: never pick up a gun.</string>
+    <string name="with">" with "</string>
+    <string name="winner">"Is winning "</string>
+    <string name="equals">Both movies have the same amount of votes</string>
+    <string name="votes">" votes"</string>
 </resources>

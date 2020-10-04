@@ -24,10 +24,8 @@ public class VoteFragment extends Fragment {
     private static final int MOVIE2 = 1;
     private static final int NONE = 2;
     public int mRadioButtonChoice = NONE;
-    private static final String CHOICE = "choice";
 
     OnFragmentInteractionListener mListener;
-
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -43,16 +41,13 @@ public class VoteFragment extends Fragment {
     }
 
     interface OnFragmentInteractionListener {
-        void onRadioButtonChoice(int choice);
         void onButtonClick(int choice);
     }
 
-
     // TODO: Rename and change types and number of parameters
-    public static VoteFragment newInstance(int choice) {
+    public static VoteFragment newInstance() {
         VoteFragment fragment = new VoteFragment();
         Bundle args = new Bundle();
-        args.putInt(CHOICE, choice);
         fragment.setArguments(args);
         return fragment;
     }
@@ -69,7 +64,6 @@ public class VoteFragment extends Fragment {
         } catch (Exception e){
             Toast.makeText(context, e.toString(), Toast.LENGTH_SHORT).show();
         }
-
     }
 
     @Override
@@ -89,13 +83,6 @@ public class VoteFragment extends Fragment {
         final RadioGroup radioGroup = rootView.findViewById(R.id.radio_group);
         final Button btnVoto = rootView.findViewById(R.id.button_vote);
 
-        if (getArguments().containsKey(CHOICE)){
-            mRadioButtonChoice = getArguments().getInt(CHOICE);
-            if (mRadioButtonChoice!=NONE){
-                radioGroup.check(radioGroup.getChildAt(mRadioButtonChoice).getId());
-            }
-        }
-
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
@@ -103,16 +90,13 @@ public class VoteFragment extends Fragment {
                 int index = radioGroup.indexOfChild(radioButton);
                 switch(index){
                     case MOVIE1:
-                        mListener.onRadioButtonChoice(MOVIE1);
                         mRadioButtonChoice = MOVIE1;
                         break;
                     case MOVIE2:
-                        mListener.onRadioButtonChoice(MOVIE2);
                         mRadioButtonChoice = MOVIE2;
                         break;
                     default:
                         mRadioButtonChoice = NONE;
-                        mListener.onRadioButtonChoice(NONE);
                         break;
                 }
             }
@@ -126,9 +110,5 @@ public class VoteFragment extends Fragment {
         });
 
         return rootView;
-
     }
-
-
-
 }

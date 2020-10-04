@@ -15,4 +15,8 @@
     <string name="you_select">"Usted voto por: "</string>
     <string name="alert_message">Por favor seleccione un pelicula</string>
     <string name="alert_title">Alerta</string>
+    <string name="winner">"Va ganando "</string>
+    <string name="equals">Ambas peliculas tienen la misma cantidad de votos</string>
+    <string name="with">" con "</string>
+    <string name="votes">" votos"</string>
 </resources>
